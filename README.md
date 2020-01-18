@@ -1,2 +1,323 @@
-# freelancer
-i'm a freelancer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+     
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="css/custom.css">
+   
+</head>
+<body>
+ <header>
+<nav>
+
+
+  
+    
+    
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark  fixed-top">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="logo"><img width="100px" src="ibm.PNG" alt="">
+                    </div></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">About Company</a>
+                        <a class="dropdown-item" href="#">Our Skills</a>
+                        <a class="dropdown-item disabled" href="#">our Team</a>
+                      </div>
+                    </li> 
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+              </nav>
+
+
+
+
+</nav>
+ </header>
+ <section id="homeslider">
+  <div class="container">
+    <div class="row heading-box">
+      
+    </div>
+  </div>
+  <section>
+      <div id="slider-animation" class="carousel slide" data-ride="carousel">
+  
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#slider-animation" data-slide-to="0" class="active"></li>
+      <li data-target="#slider-animation" data-slide-to="1"></li>
+      <li data-target="#slider-animation" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.pinimg.com/originals/10/1b/bb/101bbb8a4e78d2a5d9589d60e410dac8.jpg" alt="Los Angeles">
+          <div class="text-box">
+              <h2 class="wow slideInRight" data-wow-duration="2s">This is Obitope text</h2>
+              <p class="wow slideInLeft" data-wow-duration="2s">There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space. </p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="http://en.ddpai.com/webcommon/images/mix3/animation/bac-2.png" alt="Chicago">
+      <div class="text-box">
+              <h2 class="wow slideInUp" data-wow-duration="4s" >This is samuel text</h2>
+              <p class="wow fadeInDown" data-wow-duration="4s">There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space. </p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://playthunee.com/assets/images/4player-bg.jpg" alt="New York">
+      <div class="text-box">
+              <h2 class="wow fadeInUp" data-wow-duration="4s">This is Airborne text</h2>
+              <p class="wow fadeInUp" data-wow-duration="2s">There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space. </p>
+          </div>
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#slider-animation" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#slider-animation" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+      
+  </section>
+  
+
+
+
+
+ </section>
+<section id="services">
+<div class="container">
+
+  <div class="row titlerow">
+    <div class="section_title">
+
+      <h2>SERVICES</h2>
+    </div>
+  </div>
+  <div class="row boxrow">
+<div class="col-md-3">
+<div class="service_box">
+<div class="service_icon"><i class="fa fa-camera-retro"></i></div>
+<div class="service_title"><h4>Increadabl support</h4></div>
+<div class="service_desc">We provide inceadabl support from agency.Our ofiice gets open at 8 am everyday.
+  We have good customer support excutive to help you any regerd. <a href="" class="btn btn-warning"></a></div>
+</div>
+
+
+</div>
+
+<div class="col-md-3">
+  <div class="service_box">
+  <div class="service_icon"><i class="fa fa-camera-retro"></i></div>
+  <div class="service_title"><h4>Increadabl support</h4></div>
+  <div class="service_desc">We provide inceadabl support from agency.
+    Our ofiice gets open at 8 am everyday.We have good customer support excutive to help you any regerd.<!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+     Login form 
+    </button></div>
+  </div>
+  
+  
+  </div>
+
+  <div class="col-md-3">
+    <div class="service_box">
+    <div class="service_icon"><i class="fa fa-camera-retro"></i></div>
+    <div class="service_title"><h4>Increadabl support</h4></div>
+    <div class="service_desc">We provide inceadabl support from agency.Our ofiice gets open at 8 am everyday.We have good customer support excutive to help you any regerd.</div>
+    </div>
+    
+    
+    </div>
+
+    <div class="col-md-3">
+      <div class="service_box">
+      <div class="service_icon"><i class="fa fa-camera-retro"></i></div>
+      <div class="service_title"><h4>Increadabl support</h4></div>
+      <div class="service_desc">We provide inceadabl support from agency.Our ofiice gets open at 8 am everyday.We have good customer support excutive to help you any regerd.</div>
+      </div>
+      
+      
+      </div>
+
+      <div class="col-md-3">
+        <div class="service_box">
+        <div class="service_icon"><i class="fa fa-camera-retro"></i></div>
+        <div class="service_title"><h4>Increadabl support</h4></div>
+        <div class="service_desc">We provide inceadabl support from agency.Our ofiice gets open at 8 am everyday.We have good customer support excutive to help you any regerd.</div>
+        </div>
+        
+        
+        </div>
+
+        <div class="col-md-3">
+          <div class="service_box">
+          <div class="service_icon"><i class="fa fa-camera-retro"></i></div>
+          <div class="service_title"><h4>Increadabl support</h4></div>
+          <div class="service_desc">We provide inceadabl support from agency.Our ofiice gets open at 8 am everyday.We have good customer support excutive to help you any regerd.</div>
+          </div>
+          
+          
+          </div>
+
+          <div class="col-md-3">
+            <div class="service_box">
+            <div class="service_icon"><i class="fa fa-camera-retro"></i></div>
+            <div class="service_title"><h4>Increadabl support</h4></div>
+            <div class="service_desc">We provide inceadabl support from agency.Our ofiice gets open at 8 am everyday.We have good customer support excutive to help you any regerd.</div>
+            </div>
+            
+            
+            </div>
+
+            <div class="col-md-3">
+              <div class="service_box">
+              <div class="service_icon"><i class="fa fa-camera-retro"></i></div>
+              <div class="service_title"><h4>Increadabl support</h4></div>
+              <div class="service_desc">We provide inceadabl support from agency.Our ofiice gets open at 8 am everyday.We have good customer support excutive to help you any regerd.</div>
+              </div>
+              
+              
+              </div>
+
+              
+
+
+  </div>
+</div>
+
+</section>
+<footer>
+  <div class="container boxcontainer">
+    <div class="row">
+<div class="col-md-3">
+<div class="footerBox">
+  <div class="ftitle">
+   About us 
+  </div>
+  <div class="fcontent">
+    We provide inceadabl support from agency.Our ofiice gets open at 8 
+    am everyday.We have good customer support excutive to help you any regerd.
+  </div>
+</div>
+</div>
+<div class="col-md-3">
+  <div class="footerBox">
+    <div class="ftitle">
+     About us 
+    </div>
+    <div class="fcontent">
+      We provide inceadabl support from agency.Our ofiice gets open at 8 
+      am everyday.We have good customer support excutive to help you any regerd.
+    </div>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="footerBox">
+    <div class="ftitle">
+     About us 
+    </div>
+    <div class="fcontent">
+      We provide inceadabl support from agency.Our ofiice gets open at 8 
+      am everyday.We have good customer support excutive to help you any regerd.
+    </div>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="footerBox">
+    <div class="ftitle">
+     About us 
+    </div>
+    <div class="fcontent">
+      We provide inceadabl support from agency.Our ofiice gets open at 8 
+      am everyday.We have good customer support excutive to help you any regerd.
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="copyright">
+   <div class="container">
+    &copy; All right reserved by IBM 
+   </div>
+  </div>
+</footer>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Email <br/>
+        <input type=" " placeholder="Type your Email"><br/>
+        Password <br/>
+        <input type="" placeholder="Type your Password">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/template.js"></script> 
+ 
+
+
+
+
+</body>
+</html>                              
