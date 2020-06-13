@@ -1,0 +1,55 @@
+.p1{
+    word-spacing: 35px;
+    line-height: 50px;
+    
+
+    
+}
+
+.p2{
+    direction: 10px;
+    letter-spacing: 9px;
+}
+
+.p3{
+   text-decoration:underline
+}
+
+.p4{
+    text-indent: inherit;
+    text-shadow: none;
+    text-transform: uppercase
+}
+
+.p5{
+    text-overflow: initial
+}
+
+.p6{
+    vertical-align: bottom;
+
+}
+
+.p7{
+    white-space:  pre-wrap;
+}
+
+.p8{
+    white-space: nowrap
+}
+
+.p9{
+   white-space: pre-line;
+}
+}
+
+.p10{
+    line-break: inherit
+}
+
+
+.p11{
+    border-style: dotted dashed solid double;
+    border-color:black  blue  orange  green;
+    border-width: 10px;
+}

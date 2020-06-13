@@ -1,0 +1,158 @@
+a:hover {
+    
+    background-color: darkgray;
+    color: #312e2e;
+}
+
+.container {
+    width: 1280px;
+   
+    margin: auto;
+    background-color: #ddd;
+    padding: 5px;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.LeftColumn {
+    float: left;
+    
+    width: 1000px;
+    height: 874px;
+}
+.row:after
+{
+    content:"";
+    display:  table;
+    clear: both;
+}
+
+.card {
+}
+
+.card {
+    padding: 15px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+h5 {
+}
+
+.RighColumn {/* background-color: white; *//* margin-left: 19px; */width: 262px;float: right;/* overflow: hidden; *//* height: 473px; */margin: 10p;}
+
+img {
+    /* width: 100%; */
+}
+
+.header {
+    background-color: #fffbfb;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+}
+
+.nav {
+    background-color: #312e2e;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.LeftNav {
+    float: left;
+}
+
+.RightNav {
+    float: right;
+}
+
+a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10;
+    margin: 0px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+img.img1 {
+    width: 969px;
+    height: 320px;
+}
+
+.card1 {
+    width: 970px;
+    height: 490px;
+}
+.card2
+{
+    width: 970px;
+    height: 490px;
+}
+.card4 {
+    width: 232px;
+    height: 600px;
+}
+
+.card3 {
+    width: 232px;
+    height: 260px;
+}
+
+.img2
+{
+    width:  232px; 
+}
+
+.imgp
+{
+    width: 232px;
+    height: 100px;
+}
+
+.footer
+{
+    width: 1240px;
+    background-color: white;
+    height:300px;
+    margin-top: 20px;
+    padding:20px;
+    text-align:  center;
+}
+
+.footer1
+{
+width: 400px;
+padding: 5px;
+float: left;
+font-size: 26px
+}
+
+.footer2
+{
+    width: 400px;
+    padding: 5px;
+float: left;
+font-size: 26px
+}
+
+.footer3
+{
+    width:400px ;
+    padding: 5px;
+float: left;
+
+}
+.footer4
+{
+    width: 100%;
+    display: inline-block;
+    background-color: #312e2e;
+    color: white;
+}
