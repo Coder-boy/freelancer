@@ -1,0 +1,103 @@
+.logo{100px}
+header{border-bottom:2px solid black;padding-top:20px ;}
+
+/*home slider */
+.heading-box h2{ width:100%; color: red; }
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+.carousel-item{height: 550px ;}
+
+/*home slider end*/
+
+.section_title {
+    width: 300px;
+    border-bottom: 3px solid#343a40; ; 
+    text-align: center;
+    font-weight: bold;
+    font-family: arial black;
+	padding: 20px 0px;
+	margin: auto
+}
+.service_icon i {
+	font-size: 80px;
+	margin-top: 4px;
+    margin-right: -1px;
+
+}
+	
+	.service_box {
+		text-align: center;
+		border: 1px solid #ddd;
+		padding: 10px;
+	}
+
+	.service_icon {
+		text-align: center;
+		border: 1px solid black;
+		width: 100px;
+		height: 90px;
+		border-radius: 20px;
+		margin: auto;
+		background: black;
+		color: white;
+		margin-bottom: 15px;
+	}
+
+
+	.service_title h4 {
+		font-size: 22px;
+		font-family: arial black;
+	}
+
+	.service_desc {
+		font-size: 14px;
+		color: #777;
+	}
+	.titlerow{margin-bottom: 50px;}
+
+	.row.boxrow div.col-md-3 {
+		margin-bottom: 20px;
+	}
+
+	footer {
+		padding: 30px 0px;
+		background: #343a40;
+		color: white;
+	padding-bottom: 0px;
+	}
+
+	.copyright {
+		background: black;
+		padding: 30px 600px;
+	}
+	footer div.boxcontainer. {
+		padding-bottom: 40px;
+	}
+	.ftitle {
+		margin-bottom: 10px;
+		font-weight: bold;
+		font-family: arial;
+		font-size: 20px;
+		border-bottom: 1px solid white;
+		padding-bottom: 10px;
+	}
+	.fcontent {
+		color: #ddd;
+	}
+	.container.boxcontainer {
+		margin-bottom: 40px;
+	}
+
+	.footerBox {
+		border: 1px solid #777;
+		padding: 10px;
+		text-align: center;
+	}

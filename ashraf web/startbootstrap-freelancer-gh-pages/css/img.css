@@ -1,0 +1,144 @@
+body
+{
+    margin: 0;
+    padding:0;
+   
+}
+
+.contaner
+{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile
+{
+    transition: transform 2s;
+}
+.profile:hover
+{
+    transform: scale(1.6);
+}
+.logoText
+{
+    transition: transform 9s;
+}
+.logoText:hover
+{
+    transform: scale(1.5);
+    background-color: rgba(44, 62, 80, 0.68);
+    -webkit-text-fill-color: #1abc9c;
+}
+
+.search:hover
+{
+    background-color:whitesmoke;
+    border-color: whitesmoke;
+    
+
+}
+
+
+.contaner .box 
+{
+    position: relative;
+    width: 300px;
+    height: 225px;
+    background:whitesmoke;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    /* border-radius: 37px; */
+}
+
+.contaner .box .ImgBox
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.contaner .box .ImgBox img
+{
+    max-width:100%;
+    transition: transform 2s;
+    border-radius: 10px;
+}
+
+.contaner .box:hover .ImgBox img
+{
+    transform: scale(1.2)
+}
+
+.contaner .box .details
+{
+    position: absolute;
+    top: 10px;
+    left:10px ;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(44, 62, 80, 0.68);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.contaner .box:hover .details
+{
+    transform: scaleY(1)
+
+}
+
+.contaner .box .details .content
+{
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    color: #fff;
+   
+    text-align: center;
+}
+
+.contaner .box .details .content h2
+{
+    margin: 0;
+    padding:0;
+    font-size:  20px;
+    color:#1abc9c;
+
+}
+
+.contaner .box .details .content p
+{
+    margin: 10px 0 0;
+    padding:0;
+  
+
+}
+
+.profile:hover
+{
+    color: #1abc9c;
+}
+
+.rowe {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -50px;
+    margin-left: -158px;
+    margin-top: -10px;
+    margin-right: -110px;
+}
+
+
+.fso
+{
+    margin-top: 2px;
+    
+}
+
+button.btn.btn-secondary.search:hover {
+    color: #1abc9c;
+}
+
